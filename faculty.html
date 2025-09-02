@@ -18,14 +18,20 @@
       color: #2c3e50;
     }
 
+    .faculty-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
     .faculty-card {
-      display: inline-block;
       width: 220px;
       padding: 20px;
-      margin: 15px;
       background: white;
       border-radius: 12px;
       box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
     }
 
     .faculty-card img {
@@ -61,13 +67,30 @@
   <section id="faculty">
     <h2>Faculty Profiles</h2>
     
-    <div class="faculty-card">
-      <img src="images/ramesh.jpg" alt="Ramesh S">
-      <h3>Ramesh S</h3>
-      <p><strong>Assistant Professor</strong></p>
-      <p>Department of Commerce</p>
-    </div>
+    <div class="faculty-container">
 
+      <div class="faculty-card">
+        <img src="images/ramesh.jpg" alt="Ramesh S">
+        <h3>Ramesh S</h3>
+        <p><strong>Assistant Professor</strong></p>
+        <p>Department of Commerce</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="images/sangeetha.jpg" alt="Dr. Sangeetha P">
+        <h3>Dr. Sangeetha P</h3>
+        <p><strong>Head of Department</strong></p>
+        <p>Department of Commerce</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="images/saraswathi.jpg" alt="Dr. Saraswathi">
+        <h3>Dr. Saraswathi</h3>
+        <p><strong>Head of Department</strong></p>
+        <p>Department of English</p>
+      </div>
+
+    </div>
   </section>
 
   <footer>
